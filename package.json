@@ -1,0 +1,25 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "log tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": {
+    "name": "Kon"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "log4js": ">=0.6.38"
+  },
+  "readme": "## Example\r\n```js\r\nvar LogTool = require('logger');\r\nvar logger = LogTool.getLogger('driver_socket');\r\n```\r\n\r\n\r\nlog顯示如下\r\n```js\r\n[2016-07-21 17:16:44] ${level} [${class_path_name}:${line}] - abc\r\n```\r\n\r\n",
+  "readmeFilename": "README.md",
+  "_id": "logger@0.0.1",
+  "_shasum": "88849b126ac6bfc08949c5e50e78ab6ac44c3b1e",
+  "_from": "logger",
+  "_resolved": "file:logger"
+}
